@@ -21,7 +21,7 @@ def create_captcha_images(rotations, bg_size=(100, 100)):
         text_image = Image.new('RGBA', bg_size, (255, 255, 255, 0))
         draw = ImageDraw.Draw(text_image)
         try:
-            font = ImageFont.truetype("arial.ttf", 60)
+            font = ImageFont.truetype("static/arial.ttf", 60)
         except IOError:
             font = ImageFont.load_default()
         text_length = draw.textlength(char, font=font)
