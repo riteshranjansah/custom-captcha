@@ -20,7 +20,7 @@ This repository contains a simple Flask-based CAPTCHA application that challenge
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/custom-captcha.git
+   git clone https://github.com/riteshranjansah/custom-captcha.git
    cd custom-captcha
    ```
 
